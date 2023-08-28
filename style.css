@@ -1,0 +1,80 @@
+/* Reset some default styles for better consistency */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Apply styles to the body for the full background */
+body {
+    background-color: #6a5acd; /* Purple color */
+}
+
+/* Apply styles to the container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e0e8f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the calculator itself */
+.calculator {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+/* Style for the input field */
+input {
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the calculator buttons */
+button {
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    background: #f0f0f0;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #d0d0d0;
+}
+
+/* Apply styles to the table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* Add more spacing between table cells */
+td {
+    padding: 10px;
+}
+
+/* Apply styles to the equal button */
+button#equals {
+    background: #65b1ec;
+    color: white;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 8px;
+    height: 60px;
+}
